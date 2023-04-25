@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Clock",
+    "version": "0.0.1",
+    "icons": {"128": "icon.png"},
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"],
+            "css": ["style.css"]
+        }
+    ],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html" 
+    },
+    "permissions": [
+        "storage"
+    ]
+}
