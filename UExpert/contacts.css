@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(65, 17, 141, 0.603);
+    width: 100%;
+    height: 75px;
+    align-items:center;
+}
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    width: 50%;
+    height: 50px;
+    margin-left: 20%;
+    align-items:center;
+}
+.TextHaider{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+}
+.TextHaider:hover{
+    text-decoration: underline;
+}
+
+.Main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    border-bottom: 3px solid rgba(65, 17, 141, 0.603);
+}
+
+.Number{
+    width: 30%;
+    height: 500px;
+    border-right: 3px solid rgba(65, 17, 141, 0.603);
+}
+
+.Social{
+    width: 40%;
+    height: 500px;
+    border-right: 3px solid rgba(65, 17, 141, 0.603);
+}
+.Over{
+    width: 30%;
+    height: 500px;
+}
+.FirstDiv{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.SecondDiv{
+    width: 100%;
+    height: 450px;
+    float: left;
+}
+.MainText{
+    position: relative;
+    width: 100%;
+    font-family: "TTNorms Medium"; 
+    justify-content: center;
+    font-size: 48px; 
+    line-height: 1.1; 
+    letter-spacing: 0em; 
+    color: rgb(52, 22, 99); 
+    opacity: 1
+}
+.SmallText{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.PhoneImage{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    position: absolute;
+}
+
+
+.SocialText{ 
+    margin: 5px 5px 5px 5px;
+    font-size: 25px;
+    font-style: italic;
+    justify-content: center;
+}
+.SocialImagesClass{
+    float: left;
+    width: 100%;
+}
+.SocialImages{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+.PhoneSocial{
+    margin-left: 230px;
+    width: 40%;
+    height: 395px;
+}
+
+.footer{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items:center;
+    position: relative;
+}
+.AboutUs1{
+    float: left;
+    position:absolute;
+    width: 40%;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.AboutUs2{
+    float: left;
+    position:absolute;
+    width: 500px;
+    margin-left: 1200px;
+    margin-top: 3px;
+}
+.text1{
+    font-size: 45px;
+    font-style: italic;
+}
+.text2{
+    font-size: 20px;
+}
+
+.container2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(65, 17, 141, 0.603);
+}
+.text1{
+    font-size: 45px;
+    font-style: italic;
+}
+
+.PhoneNumber{
+    width: 100%;
+    height: 400px;
+}

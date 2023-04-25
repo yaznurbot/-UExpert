@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(65, 17, 141, 0.61);
+    width: 100%;
+    height: 75px;
+    align-items:center;
+}
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    width: 50%;
+    height: 50px;
+    margin-left: 20%;
+    align-items:center;
+}
+.TextHaider{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items:center;
+    position: relative;
+}
+.AboutUs1{
+    position:absolute;
+    width: 40%;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.AboutUs2{
+    float: left;
+    position:absolute;
+    width: 500px;
+    margin-left: 1200px;
+    margin-top: 3px;
+}
+.text1{
+    font-size: 45px;
+    font-style: italic;
+}
+.text2{
+    font-size: 20px;
+}
+
+.container2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(65, 17, 141, 0.603);
+}
+.text1{
+    font-size: 45px;
+    font-style: italic;
+}
+
+.Main{
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+.MainMenu{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border: 2px solid rgba(65, 17, 141, 0.61);
+}
+.BaseMenu{
+    width: 33%;
+    height: 500px;
+    border-right: 1px dashed rgba(65, 17, 141, 0.61);
+}
+.DeluxeMenu{
+    width: 33%;
+    height: 500px;
+
+}
+.UltimateMenu{
+    width: 34%;
+    height: 500px;
+    border-left: 1px dashed rgba(65, 17, 141, 0.61);
+}
+.SiteHeader{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(65, 17, 141, 0.61);
+}
+
+.VersionHeaderText{
+    justify-content: center;
+    font-size: 25px;
+    font-style: inherit;
+}
+
+.DescriptionVersion{
+    width: 100%;
+    height: 380px;
+}
+
+.VersionTextClass{
+    height: 50px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-style: unset;
+}
+.VersionImagesClass{
+    margin-left: 35px;
+    margin-top: 3px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.BuyIkonVersion{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.BuyIkon{
+    width: 50px;
+    height: 50px;
+}
+.footer{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
